@@ -3,5 +3,15 @@
 }
 
 li {
-  list-style-type: square;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+li > div {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
 }
