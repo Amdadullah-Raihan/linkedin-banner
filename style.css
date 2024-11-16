@@ -1,17 +1,39 @@
 .banner {
-  background-image: url("./bg.jpg");
+  position: relative;
+  width: 100%;
+  /* Set your desired width */
+  height: 300px;
+  /* Set your desired height */
+  overflow: hidden;
 }
 
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("./raihan.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+  background-position: center;
+  transform: scaleX(-1);
+  /* Flip horizontally */
+}
+
+
+
 li {
-  list-style-type: none;
+  list-style-type:none;
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-li > div {
+/* li > div {
   height: 15px;
   width: 15px;
   background-color: #fff;
   border-radius: 50%;
-}
+} */
