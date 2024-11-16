@@ -1,9 +1,7 @@
 .banner {
   position: relative;
-  width: 100%;
-  /* Set your desired width */
-  height: 300px;
-  /* Set your desired height */
+  width: 1584px;
+  height: 396px;
   overflow: hidden;
 }
 
@@ -15,9 +13,9 @@
   right: 0;
   bottom: 0;
   background-image: url("./raihan.jpg");
-  /* background-repeat: no-repeat; */
-  background-size: contain;
-  background-position: center;
+  /* background-repeat: no-repeat, no-repeat; */
+  background-size: 60%;
+  background-position: 20% 25%;
   transform: scaleX(-1);
   /* Flip horizontally */
 }
@@ -31,9 +29,9 @@ li {
   gap: 12px;
 }
 
-/* li > div {
+li > div {
   height: 15px;
   width: 15px;
   background-color: #fff;
   border-radius: 50%;
-} */
+}
